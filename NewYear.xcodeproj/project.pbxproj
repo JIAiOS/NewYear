@@ -14,6 +14,11 @@
 		D8F2472721E470D800A5D5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F2472621E470D800A5D5EB /* Assets.xcassets */; };
 		D8F2472A21E470D800A5D5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F2472821E470D800A5D5EB /* LaunchScreen.storyboard */; };
 		D8F2472D21E470D800A5D5EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2472C21E470D800A5D5EB /* main.m */; };
+		D8F2473421E477FB00A5D5EB /* 春节序曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8F2473321E477FB00A5D5EB /* 春节序曲.mp3 */; };
+		D8F2473B21E47A6900A5D5EB /* 1543311752631.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F2473A21E47A6900A5D5EB /* 1543311752631.jpg */; };
+		D8F2473F21E483A700A5D5EB /* CountDowmTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2473E21E483A700A5D5EB /* CountDowmTime.m */; };
+		D8F2474221E48C5100A5D5EB /* 2019.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F2474121E48C5100A5D5EB /* 2019.jpg */; };
+		D8F2474421E4948200A5D5EB /* 20190205.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8F2474321E4948200A5D5EB /* 20190205.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,13 @@
 		D8F2472921E470D800A5D5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8F2472B21E470D800A5D5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8F2472C21E470D800A5D5EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8F2473321E477FB00A5D5EB /* 春节序曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "春节序曲.mp3"; sourceTree = "<group>"; };
+		D8F2473A21E47A6900A5D5EB /* 1543311752631.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1543311752631.jpg; sourceTree = "<group>"; };
+		D8F2473D21E483A700A5D5EB /* CountDowmTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDowmTime.h; sourceTree = "<group>"; };
+		D8F2473E21E483A700A5D5EB /* CountDowmTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDowmTime.m; sourceTree = "<group>"; };
+		D8F2474021E48B0300A5D5EB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		D8F2474121E48C5100A5D5EB /* 2019.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2019.jpg; sourceTree = "<group>"; };
+		D8F2474321E4948200A5D5EB /* 20190205.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20190205.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +72,13 @@
 		D8F2471921E470D700A5D5EB /* NewYear */ = {
 			isa = PBXGroup;
 			children = (
+				D8F2473C21E4837C00A5D5EB /* CountDownTime */,
+				D8F2473921E479ED00A5D5EB /* Sources */,
 				D8F2471A21E470D700A5D5EB /* AppDelegate.h */,
 				D8F2471B21E470D700A5D5EB /* AppDelegate.m */,
 				D8F2471D21E470D700A5D5EB /* ViewController.h */,
 				D8F2471E21E470D700A5D5EB /* ViewController.m */,
+				D8F2474021E48B0300A5D5EB /* Header.h */,
 				D8F2472021E470D700A5D5EB /* Main.storyboard */,
 				D8F2472621E470D800A5D5EB /* Assets.xcassets */,
 				D8F2472821E470D800A5D5EB /* LaunchScreen.storyboard */,
@@ -72,6 +87,26 @@
 				D8F2472321E470D700A5D5EB /* NewYear.xcdatamodeld */,
 			);
 			path = NewYear;
+			sourceTree = "<group>";
+		};
+		D8F2473921E479ED00A5D5EB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2474321E4948200A5D5EB /* 20190205.jpg */,
+				D8F2474121E48C5100A5D5EB /* 2019.jpg */,
+				D8F2473321E477FB00A5D5EB /* 春节序曲.mp3 */,
+				D8F2473A21E47A6900A5D5EB /* 1543311752631.jpg */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D8F2473C21E4837C00A5D5EB /* CountDownTime */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2473D21E483A700A5D5EB /* CountDowmTime.h */,
+				D8F2473E21E483A700A5D5EB /* CountDowmTime.m */,
+			);
+			path = CountDownTime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +166,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F2474421E4948200A5D5EB /* 20190205.jpg in Resources */,
 				D8F2472A21E470D800A5D5EB /* LaunchScreen.storyboard in Resources */,
+				D8F2473B21E47A6900A5D5EB /* 1543311752631.jpg in Resources */,
 				D8F2472721E470D800A5D5EB /* Assets.xcassets in Resources */,
+				D8F2473421E477FB00A5D5EB /* 春节序曲.mp3 in Resources */,
 				D8F2472221E470D700A5D5EB /* Main.storyboard in Resources */,
+				D8F2474221E48C5100A5D5EB /* 2019.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F2471F21E470D700A5D5EB /* ViewController.m in Sources */,
+				D8F2473F21E483A700A5D5EB /* CountDowmTime.m in Sources */,
 				D8F2472521E470D700A5D5EB /* NewYear.xcdatamodeld in Sources */,
 				D8F2472D21E470D800A5D5EB /* main.m in Sources */,
 				D8F2471C21E470D700A5D5EB /* AppDelegate.m in Sources */,
@@ -289,6 +329,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54K5TNT8QK;
 				INFOPLIST_FILE = NewYear/Info.plist;
@@ -298,7 +340,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JARVIS.NewYear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +349,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54K5TNT8QK;
 				INFOPLIST_FILE = NewYear/Info.plist;
@@ -315,7 +360,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JARVIS.NewYear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
